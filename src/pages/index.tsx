@@ -1,13 +1,10 @@
 import { NextPage } from "next";
 import Layout from "../components/Layout";
 import styles from "../styles/pages/Home.module.css";
-
+import Link from "next/link";
 const Home: NextPage = () => {
   return (
-    <Layout
-      background="home"
-      className="pb-2.5 overflow-hidden"
-    >
+    <Layout background="home" className="pb-2.5 overflow-hidden">
       <header className={`${styles.hero} h-full`}>
         <div className={`container ${styles.container}`}>
           <div className={styles.half}>
@@ -21,11 +18,12 @@ const Home: NextPage = () => {
             </p>
           </div>
           <div className={`${styles.half} flex justify-end`}>
-            <a
-              href="#!"
-              className={`${styles.exploreBtn} after:grid
+            <Link href="/destination">
+              <a
+                className={`${styles.exploreBtn} after:grid
                                 after:place-content-center`}
-            ></a>
+              ></a>
+            </Link>
           </div>
         </div>
       </header>

@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution: [at Frontend Mentor](https://github.com/adityayaduvanshi/Space-Tourism-Frontend-Mentor)
-- Live Site: [hosted on Vercel](https://space-tourism-frontend-mentor-61wh.vercel.app)
+- Live Site: [hosted on Vercel](https://space-tourism-aditya.vercel.app)
 
 ## My process
 
